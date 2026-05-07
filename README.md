@@ -106,12 +106,23 @@ Four intent-driven skills live under `.claude/skills/` and compose the MCP tools
 
 - **`/daily-brief`** — Morning briefing: today's calendar, unread mail of substance, and active Jira tickets grouped by status.
   *Triggers:* "what's on my plate today?", "give me the morning briefing".
+
+  ![/daily-brief example output](images/daily_brief_demo.jpg)
+
 - **`/follow-ups`** — Threads and tickets where you're waiting on someone else: sent emails with no reply, plus tickets you reported but didn't get assigned.
   *Triggers:* "who am I waiting on?", "what's blocked on someone else?", "anything I'm chasing?".
+
+  ![/follow-ups example output](images/follow_ups_demo.jpg)
+
 - **`/blockers`** — Active blockers: Jira tickets in Blocked status (with stale-blocker callouts at ≥ 7 days) and calendar events flagged as blockers.
   *Triggers:* "what's blocking me?", "what's stuck?".
+
+  ![/blockers example output](images/blockers_demo.jpg)
+
 - **`/schedule-around`** — Find the first free calendar slot of a given duration in the next N days.
   *Triggers:* "find me time for X", "when can I fit a 30-min meeting?", "schedule around my calendar".
+
+  ![/schedule-around example output](images/schedule_around_demo.jpg)
 
 Each skill's full instructions live in its `SKILL.md`. To add a skill, drop a new directory under `.claude/skills/<name>/` containing a `SKILL.md` with `name` and `description` frontmatter — Claude Code picks it up on restart.
 
