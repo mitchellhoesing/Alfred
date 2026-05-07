@@ -6,7 +6,7 @@ Read-only across all sources in v1. Writes deferred to v2.
 
 ## Architecture
 
-Single MCP server with a `SourceAdapter` ABC and intent-driven workflow skills. New data sources plug in by writing a new adapter — no changes to core or skills that use generic tools. Full design in [`.claude/plans/we-are-going-to-merry-orbit.md`](.claude/plans/we-are-going-to-merry-orbit.md).
+Single MCP server with a `SourceAdapter` ABC and intent-driven workflow skills. New data sources plug in by writing a new adapter — no changes to core or skills that use generic tools.
 
 ## Prerequisites
 
