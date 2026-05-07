@@ -1,0 +1,22 @@
+{
+  "kind": "calendar#event",
+  "id": "evt_allday_xyz",
+  "status": "confirmed",
+  "htmlLink": "https://www.google.com/calendar/event?eid=ZXZ0X2FsbGRheV94eXo",
+  "summary": "Company Offsite",
+  "location": "Lake Tahoe",
+  "creator": {
+    "email": "hoesingmitch02@gmail.com",
+    "displayName": "Mitch Hoesing"
+  },
+  "organizer": {
+    "email": "hoesingmitch02@gmail.com",
+    "displayName": "Mitch Hoesing"
+  },
+  "start": {
+    "date": "2026-06-15"
+  },
+  "end": {
+    "date": "2026-06-17"
+  }
+}

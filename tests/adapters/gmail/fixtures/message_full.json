@@ -1,0 +1,16 @@
+{
+  "id": "msg_abc123",
+  "threadId": "thr_zzz",
+  "labelIds": ["INBOX", "UNREAD", "IMPORTANT"],
+  "snippet": "Hi Mitch, just following up on the Q2 planning doc...",
+  "internalDate": "1777986000000",
+  "payload": {
+    "mimeType": "text/plain",
+    "headers": [
+      {"name": "Subject", "value": "Re: Q2 Planning"},
+      {"name": "From", "value": "Alice Smith <alice@example.com>"},
+      {"name": "To", "value": "Mitch <mitch@example.com>, Bob <bob@example.com>"},
+      {"name": "Date", "value": "Tue, 5 May 2026 13:00:00 +0000"}
+    ]
+  }
+}

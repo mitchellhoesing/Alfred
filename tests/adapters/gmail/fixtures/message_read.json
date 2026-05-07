@@ -1,0 +1,15 @@
+{
+  "id": "msg_def456",
+  "threadId": "thr_yyy",
+  "labelIds": ["INBOX"],
+  "snippet": "Confirmation of your booking",
+  "internalDate": "1777899600000",
+  "payload": {
+    "mimeType": "text/plain",
+    "headers": [
+      {"name": "Subject", "value": "Booking confirmed"},
+      {"name": "From", "value": "noreply@booking.example"},
+      {"name": "To", "value": "mitch@example.com"}
+    ]
+  }
+}

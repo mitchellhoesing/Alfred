@@ -1,0 +1,37 @@
+{
+  "kind": "calendar#event",
+  "id": "evt_abc123",
+  "status": "confirmed",
+  "htmlLink": "https://www.google.com/calendar/event?eid=ZXZ0X2FiYzEyMw",
+  "summary": "Q2 Planning Sync",
+  "description": "Review Q2 OKRs and scope for Alfred milestones.",
+  "location": "Zoom",
+  "creator": {
+    "email": "hoesingmitch02@gmail.com",
+    "displayName": "Mitch Hoesing"
+  },
+  "organizer": {
+    "email": "hoesingmitch02@gmail.com",
+    "displayName": "Mitch Hoesing"
+  },
+  "start": {
+    "dateTime": "2026-05-05T09:00:00-04:00",
+    "timeZone": "America/New_York"
+  },
+  "end": {
+    "dateTime": "2026-05-05T10:00:00-04:00",
+    "timeZone": "America/New_York"
+  },
+  "attendees": [
+    {
+      "email": "alice@example.com",
+      "displayName": "Alice",
+      "responseStatus": "accepted"
+    },
+    {
+      "email": "bob@example.com",
+      "displayName": "Bob Coworker",
+      "responseStatus": "tentative"
+    }
+  ]
+}

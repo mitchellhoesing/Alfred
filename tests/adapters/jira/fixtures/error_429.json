@@ -1,0 +1,4 @@
+{
+  "errorMessages": ["Rate limit exceeded. Please retry after the time indicated by the Retry-After header."],
+  "errors": {}
+}

@@ -1,0 +1,36 @@
+[project]
+name = "alfred"
+version = "0.1.0"
+description = "Personal AI assistant — MCP server bridging Claude to Google Calendar, Gmail, and Jira"
+requires-python = ">=3.11"
+dependencies = [
+    "mcp>=1.2",
+    "google-api-python-client>=2.100",
+    "google-auth-oauthlib>=1.2",
+    "google-auth-httplib2>=0.2",
+    "requests>=2.31",
+    "cryptography>=42.0",
+    "python-dotenv>=1.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "mypy>=1.8",
+    "types-requests",
+]
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+include = ["mcp_server*"]
+
+[tool.mypy]
+strict = true
+python_version = "3.11"
+files = ["mcp_server"]
+
+[[tool.mypy.overrides]]
+module = ["google.*", "googleapiclient.*", "google_auth_oauthlib.*"]
+ignore_missing_imports = true

@@ -1,0 +1,28 @@
+{
+  "id": "10002",
+  "key": "ALF-2",
+  "self": "https://acme.atlassian.net/rest/api/3/issue/10002",
+  "fields": {
+    "summary": "Privacy-mode user as assignee",
+    "status": {
+      "name": "To Do",
+      "id": "1"
+    },
+    "assignee": {
+      "accountId": "557058:ghi",
+      "displayName": "Privacy Person",
+      "active": true
+    },
+    "reporter": {
+      "accountId": "557058:jkl",
+      "displayName": "Reporter Two",
+      "emailAddress": "rep2@example.com",
+      "active": true
+    },
+    "priority": {
+      "name": "Medium",
+      "id": "3"
+    },
+    "updated": "2026-05-04T14:00:00.000+0000"
+  }
+}

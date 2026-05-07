@@ -1,0 +1,29 @@
+{
+  "id": "10001",
+  "key": "ALF-1",
+  "self": "https://acme.atlassian.net/rest/api/3/issue/10001",
+  "fields": {
+    "summary": "Investigate cross-source aggregation latency",
+    "status": {
+      "name": "In Progress",
+      "id": "3"
+    },
+    "assignee": {
+      "accountId": "557058:abc",
+      "displayName": "Mitch Hoesing",
+      "emailAddress": "hoesingmitch02@gmail.com",
+      "active": true
+    },
+    "reporter": {
+      "accountId": "557058:def",
+      "displayName": "Alex Reporter",
+      "emailAddress": "alex@example.com",
+      "active": true
+    },
+    "priority": {
+      "name": "High",
+      "id": "2"
+    },
+    "updated": "2026-05-04T13:30:00.000+0000"
+  }
+}

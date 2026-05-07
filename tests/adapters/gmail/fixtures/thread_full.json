@@ -1,0 +1,34 @@
+{
+  "id": "thr_zzz",
+  "historyId": "987654",
+  "messages": [
+    {
+      "id": "msg_abc123",
+      "threadId": "thr_zzz",
+      "labelIds": ["INBOX", "UNREAD"],
+      "snippet": "Hi Mitch, just following up on the Q2 planning doc...",
+      "internalDate": "1777986000000",
+      "payload": {
+        "headers": [
+          {"name": "Subject", "value": "Re: Q2 Planning"},
+          {"name": "From", "value": "Alice Smith <alice@example.com>"},
+          {"name": "To", "value": "Mitch <mitch@example.com>"}
+        ]
+      }
+    },
+    {
+      "id": "msg_xyz789",
+      "threadId": "thr_zzz",
+      "labelIds": ["INBOX", "SENT"],
+      "snippet": "Thanks Alice, I'll review tonight.",
+      "internalDate": "1777989600000",
+      "payload": {
+        "headers": [
+          {"name": "Subject", "value": "Re: Q2 Planning"},
+          {"name": "From", "value": "Mitch <mitch@example.com>"},
+          {"name": "To", "value": "Alice Smith <alice@example.com>"}
+        ]
+      }
+    }
+  ]
+}
